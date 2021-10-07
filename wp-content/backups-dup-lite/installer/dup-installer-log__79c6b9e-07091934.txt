@@ -1,0 +1,897 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:29:15
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.34                                |7.4.21
+OS__________________: Linux                                 |Darwin
+CREATED_____________: 2021-10-07 09:19:34
+WP VERSION__________: 5.8.1
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.23
+DB TABLES___________: 51
+DB ROWS_____________: 129,915
+DB FILE SIZE________: 33.98MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.21 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Applications/MAMP/htdocs/sgsp_"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/sgsp_/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/MAMP/htdocs/sgsp_/20211006_sgsp_[HASH]_20211007091934_archive.daf"
+SIZE________________: 210.17MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-211007092915-615ebdeb05728-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 09:29:18 - RUNTIME: 3.7540 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:29:44
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.34 -- Build Server: 5.7.23
+FILE SIZE:	dup-database__[HASH].sql (30.06MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/sgsp_/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	492
+
+_ZIY_actionscheduler_actions: (44)
+_ZIY_actionscheduler_claims: (0)
+_ZIY_actionscheduler_groups: (2)
+_ZIY_actionscheduler_logs: (128)
+_ZIY_commentmeta: (0)
+_ZIY_comments: (0)
+_ZIY_duplicator_packages: (0)
+_ZIY_links: (0)
+_ZIY_options: (355)
+_ZIY_postmeta: (58818)
+_ZIY_posts: (13274)
+_ZIY_revslider_css: (109)
+_ZIY_revslider_layer_animations: (0)
+_ZIY_revslider_navigations: (0)
+_ZIY_revslider_sliders: (2)
+_ZIY_revslider_slides: (6)
+_ZIY_revslider_static_slides: (0)
+_ZIY_term_relationships: (138)
+_ZIY_term_taxonomy: (33)
+_ZIY_termmeta: (0)
+_ZIY_terms: (33)
+_ZIY_usermeta: (65)
+_ZIY_users: (3)
+_ZIY_wfblockediplog: (9)
+_ZIY_wfblocks7: (0)
+_ZIY_wfconfig: (261)
+_ZIY_wfcrawlers: (16)
+_ZIY_wffilechanges: (0)
+_ZIY_wffilemods: (20484)
+_ZIY_wfhits: (41)
+_ZIY_wfhoover: (0)
+_ZIY_wfissues: (0)
+_ZIY_wfknownfilelist: (20485)
+_ZIY_wflivetraffichuman: (0)
+_ZIY_wflocs: (0)
+_ZIY_wflogins: (19)
+_ZIY_wfls_2fa_secrets: (0)
+_ZIY_wfls_settings: (23)
+_ZIY_wfnotifications: (209)
+_ZIY_wfpendingissues: (0)
+_ZIY_wfreversecache: (1)
+_ZIY_wfsnipcache: (1)
+_ZIY_wfstatus: (1818)
+_ZIY_wftrafficrates: (0)
+_ZIY_wpforms_tasks_meta: (20)
+_ZIY_yoast_indexable: (13052)
+_ZIY_yoast_indexable_hierarchy: (77)
+_ZIY_yoast_migrations: (22)
+_ZIY_yoast_primary_term: (0)
+_ZIY_yoast_seo_links: (8)
+_ZIY_yoast_seo_meta: (247)
+Removed '117' cache/transient rows
+
+INSERT DATA RUNTIME: 7.9905 sec.
+STEP-2 COMPLETE @ 09:29:52 - RUNTIME: 8.0086 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:30:06
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "SGSP"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home4/sgspinfo/public_html"
+path_new______________: "/Applications/MAMP/htdocs/sgsp_"
+siteurl_______________: "http://localhost:8888/sgsp_"
+url_old_______________: "https://www.sgsp.info"
+url_new_______________: "http://localhost:8888/sgsp_"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "_ZIY_actionscheduler_actions"____________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_actionscheduler_groups"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_actionscheduler_logs"_______________________[ROWS:   128][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_comments"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_options"____________________________________[ROWS:   355][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_postmeta"___________________________________[ROWS: 58818][PG:  17][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_posts"______________________________________[ROWS: 13274][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_revslider_css"______________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_revslider_layer_animations"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_revslider_navigations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_revslider_sliders"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_revslider_slides"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_revslider_static_slides"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_term_relationships"_________________________[ROWS:   138][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_term_taxonomy"______________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_terms"______________________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_usermeta"___________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_users"______________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfblockediplog"_____________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfblocks7"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wfconfig"___________________________________[ROWS:   261][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfcrawlers"_________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wffilechanges"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wffilemods"_________________________________[ROWS: 20484][PG:   6][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfhits"_____________________________________[ROWS:    41][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfhoover"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wfissues"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wfknownfilelist"____________________________[ROWS: 20485][PG:   6][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wflivetraffichuman"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wflocs"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wflogins"___________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfls_2fa_secrets"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wfls_settings"______________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfnotifications"____________________________[ROWS:   209][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfpendingissues"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wfreversecache"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfsnipcache"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wfstatus"___________________________________[ROWS:  1818][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_wftrafficrates"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_wpforms_tasks_meta"_________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_yoast_indexable"____________________________[ROWS: 13052][PG:   4][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_yoast_indexable_hierarchy"__________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_yoast_migrations"___________________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_yoast_primary_term"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "_ZIY_yoast_seo_links"____________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+
+EVALUATE TABLE: "_ZIY_yoast_seo_meta"_____________________________[ROWS:   247][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home4/sgspinfo/public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  2:"\/home4\/sgspinfo\/public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  3:"%2Fhome4%2Fsgspinfo%2Fpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  4:"\home4\sgspinfo\public_html" =====================> "/Applications/MAMP/htdocs/sgsp_"
+	SEARCH  5:"\\home4\\sgspinfo\\public_html" ==================> "\/Applications\/MAMP\/htdocs\/sgsp_"
+	SEARCH  6:"%5Chome4%5Csgspinfo%5Cpublic_html" ===============> "%2FApplications%2FMAMP%2Fhtdocs%2Fsgsp_"
+	SEARCH  7:"//www.sgsp.info" =================================> "//localhost:8888/sgsp_"
+	SEARCH  8:"\/\/www.sgsp.info" ===============================> "\/\/localhost:8888\/sgsp_"
+	SEARCH  9:"%2F%2Fwww.sgsp.info" =============================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 10:"//sgsp.info" =====================================> "//localhost:8888/sgsp_"
+	SEARCH 11:"\/\/sgsp.info" ===================================> "\/\/localhost:8888\/sgsp_"
+	SEARCH 12:"%2F%2Fsgsp.info" =================================> "%2F%2Flocalhost%3A8888%2Fsgsp_"
+	SEARCH 13:"https://localhost:8888/sgsp_" ====================> "http://localhost:8888/sgsp_"
+	SEARCH 14:"https:\/\/localhost:8888\/sgsp_" =================> "http:\/\/localhost:8888\/sgsp_"
+	SEARCH 15:"https%3A%2F%2Flocalhost%3A8888%2Fsgsp_" ==========> "http%3A%2F%2Flocalhost%3A8888%2Fsgsp_"
+--------------------------------------
+SCANNED:	Tables:51 	|	 Rows:129803 	|	 Cells:1436444 
+UPDATED:	Tables:7 	|	 Rows:26544 	|	 Cells:26698 
+ERRORS:		0 
+RUNTIME:	25.816300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost:8888/sgsp_"
+	UPDATE WP_SITEURL "http://localhost:8888/sgsp_"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate really-simple-ssl/rlrsssl-really-simple-ssl.php
+Plugin(s) listed here are deactivated: really-simple-ssl/rlrsssl-really-simple-ssl.php
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:30:32 - RUNTIME: 25.9142 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  Really Simple SSL
+	SECTIONS: general
+	LONG MSG: This plugin has been deactivated since this migration is going from SSL (HTTPS) to Non-SSL (HTTP).  This will allow you to login to your WordPress Admin.   To reactivate the plugin please go to the admin plugin page.
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
